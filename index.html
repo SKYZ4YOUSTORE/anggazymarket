@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anggazy Market ID</title>
+    <style>
+        @import url('https://files.catbox.moe/zmcgpi.jpg');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .header {
+            text-align: center;
+            margin: 20px 0;
+            opacity: 0;
+            animation: fadeIn 1s ease-in-out forwards;
+        }
+        
+        .header h1 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            width: 90%;
+            max-width: 800px;
+            margin-bottom: 30px;
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.8s ease-in-out forwards;
+            border: 3px solid;
+            border-image-slice: 1;
+            animation: borderAnimation 4s linear infinite, fadeInUp 0.8s ease-in-out forwards;
+        }
+        
+        .card:nth-child(1) { animation-delay: 0.2s; }
+        .card:nth-child(2) { animation-delay: 0.4s; }
+        .card:nth-child(3) { animation-delay: 0.6s; }
+        .card:nth-child(4) { animation-delay: 0.8s; }
+        .card:nth-child(5) { animation-delay: 1.0s; }
+        .card:nth-child(6) { animation-delay: 1.2s; }
+        .card:nth-child(7) { animation-delay: 1.4s; }
+        .card:nth-child(8) { animation-delay: 1.6s; }
+        
+        .card h2 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .card-image {
+            width: 100%;
+            height: 120px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            background-color: #eee;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: linear-gradient(45deg, #4CAF50, #2E7D32);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .payment-section {
+            width: 90%;
+            max-width: 800px;
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.8s ease-in-out forwards;
+            animation-delay: 1.8s;
+            border: 3px solid;
+            border-image-slice: 1;
+            animation: borderAnimation 4s linear infinite, fadeInUp 0.8s ease-in-out forwards 1.8s;
+        }
+        
+        .payment-section h2 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes fadeInUp {
+            from { 
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to { 
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes borderAnimation {
+            0% { border-image-source: linear-gradient(45deg, red, lime, blue); }
+            33% { border-image-source: linear-gradient(45deg, blue, red, lime); }
+            66% { border-image-source: linear-gradient(45deg, lime, blue, red); }
+            100% { border-image-source: linear-gradient(45deg, red, lime, blue); }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>ANGGAZY MARKET ID</h1>
+    </div>
+    
+    <div class="container">
+        <div class="card">
+            <h2>JASA CREATE WEBSITE </h2>
+            <div class="card-image" style="background-image: url('https://files.catbox.moe/ip0qyz.jpg')"></div>
+            <a href="https://wa.me/6285946182055" class="btn">PESAN DI SINI</a>
+        </div>
+        
+        <div class="card">
+            <h2>JASA PUSH SALURAN WA</h2>
+            <div class="card-image" style="background-image: url('https://files.catbox.moe/ip0qyz.jpg')"></div>
+            <a href="https://wa.me/6285946182055" class="btn">PESAN DI SINI</a>
+        </div>
+        
+        <div class="card">
+            <h2>MURTEB UNCHEK</h2>
+            <div class="card-image" style="background-image: url('https://files.catbox.moe/ip0qyz.jpg')"></div>
+            <a href="https://wa.me/6285946182055" class="btn">PESAN DI SINI</a>
+        </div>
+        
+        <div class="card">
+            <h2>MURBUG WA GANAS</h2>
+            <div class="card-image" style="background-image: url('https://files.catbox.moe/ip0qyz.jpg')"></div>
+            <a href="https://wa.me/6285946182055" class="btn">PESAN DI SINI</a>
+        </div>
+        
+        <div class="card">
+            <h2>BT ADMIN SALURAN</h2>
+            <div class="card-image" style="background-image: url('https://files.catbox.moe/ip0qyz.jpg')"></div>
+            <a href="https://wa.me/6285946182055" class="btn">PESAN DI SINI</a>
+        </div>
+        
+        <div class="card">
+            <h2>GB PUSH CH FREE</h2>
+            <div class="card-image" style="background-image: url('https://files.catbox.moe/ip0qyz.jpg')"></div>
+            <a href="https://chat.whatsapp.com/D2R7qT6GJzuCND8cPG6RbH?mode=ac_t" class="btn">KLIK DI SINI BG</a>
+        </div>
+        
+        <div class="card">
+            <h2>SCRIPT BUG FREE</h2>
+            <div class="card-image" style="background-image: url('https://files.catbox.moe/ip0qyz.jpg')"></div>
+            <a href="https://drive.google.com/drive/folders/1YEclnbpBq4q_6oN76GQzU_uhAIrIiEOW" class="btn">KLIK SINI</a>
+        </div>
+        
+        <div class="card">
+            <h2>SCRIPT MD FREE</h2>
+            <div class="card-image" style="background-image: url('https://files.catbox.moe/ip0qyz.jpg')"></div>
+            <a href="https://drive.google.com/drive/folders/1YEclnbpBq4q_6oN76GQzU_uhAIrIiEOW" class="btn">KLIK SINI</a>
+        </div>
+    </div>
+    
+    <div class="payment-section">
+        <h2>NOMOR PEMBAYARAN</h2>
+        <a href="https://wa.me/6285946182055?text=SEND+NOPE+BG+GECEE" class="btn">KLIK AKU BANG</a>
+    </div>
+</body>
+</html>
